@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:mapman/path.dart';
 import 'package:mapman/pixel.dart';
+import 'package:mapman/player.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -36,7 +37,9 @@ class _HomePageState extends State<HomePage> {
                     gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                     crossAxisCount: numberInRow),
                     itemBuilder: (BuildContext context, int index){
-                    if (barriers.contains(index)) {
+                    if (player == index) {
+                      return MyPlayer();
+                    }else if (barriers.contains(index)) {
                       return MyPixel(
                         innerColor: Colors.red[800],
                         outerColor: Colors.red[900],
@@ -48,7 +51,6 @@ class _HomePageState extends State<HomePage> {
                         outerColor: Colors.black,
                         //child: Text(index.toString()),
                       );
-
                     }
                     }),
               ),),
