@@ -12,6 +12,7 @@ class _HomePageState extends State<HomePage> {
 
   static int numberInRow = 11;
   int numberOfSquares = numberInRow * 13;
+  int player = numberInRow * 11 + 1;
 
   List<int> barriers = [
     0,1,2,3,4,5,6,7,8,9,10,11,22,33,44,55,77,88,99,110,121,132,133,134,135,136,137,138,139,140,141,142,
@@ -43,7 +44,7 @@ class _HomePageState extends State<HomePage> {
                       );
                     } else {
                       return MyPath(
-                        innerColor: Colors.tealAccent,
+                        innerColor: Colors.yellowAccent,
                         outerColor: Colors.black,
                         //child: Text(index.toString()),
                       );
