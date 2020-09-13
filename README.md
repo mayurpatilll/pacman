@@ -1,8 +1,10 @@
 # mapman
 
-A new Flutter application.
+A retro 2D game PACMAN made using flutter !
 
 ## Getting Started
+
+![](/lib/images/pacman-ss.png)
 
 This project is a starting point for a Flutter application.
 
