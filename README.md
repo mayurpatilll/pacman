@@ -6,9 +6,7 @@ A retro 2D game PACMAN made using flutter !
 
 <img src="lib/images/pacman-ss.png" width="300">
 
-![gifpacman](https://user-images.githubusercontent.com/68007331/115844927-f4aef880-a43d-11eb-83d1-491b2fbe8965.gif)
-
-![test image size]<img src="(https://user-images.githubusercontent.com/68007331/115844927-f4aef880-a43d-11eb-83d1-491b2fbe8965.gif" width="400" height="790">
+![pacmanresized](https://user-images.githubusercontent.com/68007331/115847651-ca126f00-a440-11eb-8171-b72b8d8026a6.gif)
 
 This project is a starting point for a Flutter application.
 
